@@ -33,6 +33,14 @@ p {
     color: #999;
     margin-bottom: 20px;
 }
+b {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: white;
+    margin-bottom: 20px;
+}
 
 h1 {
     font-size: 55px;
@@ -44,15 +52,18 @@ h2 {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 20px;
 }
 h5{
-    font-size: 75px;
+    font-size: 35px;
+}
+.text{
+    color: #fff;
 }
 
 h1,
 h2,
-h4 {
+h4,h5 {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
     line-height: 1.25em;
@@ -82,7 +93,7 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    color: #000;
+    
     
 }
 
@@ -93,7 +104,7 @@ img {
 }
 
 .logo-wrapper a {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: #fff;
@@ -103,14 +114,16 @@ img {
 }
 
 .logo-wrapper a strong {
-    font-family: 'Jost', sans-serif;
-    ;
+    font-family: 'Poppins', sans-serif;
+    
     font-size: 25px;
     color: #fff;
-    letter-spacing: -5px;
+    
 
 }
-
+.text{
+    font-family: 'Jost', sans-serif;
+}
 
 
 .navbar .navbar-links {
@@ -161,6 +174,10 @@ img {
 }
 
 .header .box h1 {
+    color: #fff;
+}
+.header .box p {
+    font-family: 'Poppins', sans-serif;
     color: #fff;
 }
 
